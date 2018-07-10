@@ -1,0 +1,19 @@
+.active {
+    padding: 6px 0px !important;
+    color: #000;
+    background: #b6e6e1;
+    font-weight: 500;
+    border-right: 6px solid #31b9a9;
+    text-decoration: none;
+}
+
+.active:after {
+    position: absolute;
+    top: 6px;
+    left: calc(50% - 58px);
+    content: '';
+    width: 115px;
+    height: 2px !important;
+    background-color: white;
+    visibility: unset !important;
+}

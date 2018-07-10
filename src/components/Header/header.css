@@ -1,0 +1,10 @@
+button {
+    outline: none !important;
+}
+
+.menu-item>.MuiMenu-paper-88:before {
+    content: '';
+    visibility: unset;
+    width: 0;
+    height: 0;
+}
